@@ -1,8 +1,28 @@
 # NativeScript Angular 9 Code Sharing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7 and NativeScript 6.5 ' `tns create`
 
-## Development server
+Uses SASS and Nativescript Theme 2.0.
+
+## Running the NativeScript App
+
+To run this project you must use the `--env.aot` flag or you will get errors. For example:
+
+```
+tns run ios --env.aot
+```
+
+## Running the NativeScript App with HMR
+
+For HMR to function Ivy must be disabled in `tsconfig.tns.json` or you will get errors.
+
+```
+"angularCompilerOptions": {
+    "enableIvy": false
+}
+```
+
+## Running the Angular Web App
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
