@@ -1,6 +1,6 @@
 # NativeScript Angular 9 Code Sharing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7 and NativeScript 6.5 ' `tns create`
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7 and NativeScript 6.5 default template from `tns create`
 
 Uses SASS and Nativescript Theme 2.0.
 
